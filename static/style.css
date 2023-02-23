@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+background: rgb(43, 43, 43);
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  display: block;
+  margin: 0 auto 1.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  background:rgb(56, 56, 56);
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  font-size: 1.25rem;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}

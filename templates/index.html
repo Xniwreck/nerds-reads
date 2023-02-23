@@ -1,0 +1,26 @@
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Nerds read</title>
+</head>
+<body>
+
+    <h1>Nerds read</h1>
+    <p>Click the button and start reading filtered articles:</p>
+    <button onclick="location.reload()">Generate</button>
+    <p>Topic: {{ topic }}</p>
+    <p>Source: {{ source }}</p>
+    <p>Search results:</p>
+    <ul>
+        {% for result in results %}
+        <h3>{{ result.title }}</h3>
+        <a href="{{ result.link }}">{{ result.link }}</a>
+    {% endfor %}
+    
+    </ul>
+    <script async src="https://cse.google.com/cse.js?cx=16a564dca81a640c2">
+    </script>
+    <div class="gcse-search"></div>
+</body>
+</html>
