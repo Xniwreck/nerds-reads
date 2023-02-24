@@ -1,12 +1,14 @@
+/* Default styles */
+
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   color: rgb(255, 255, 255);
-background: rgb(43, 43, 43);
+  background: rgb(43, 43, 43);
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 5vw;
   font-weight: 400;
   text-align: center;
   margin-top: 3rem;
@@ -56,4 +58,38 @@ a {
 
 a:hover {
   color: #0056b3;
+}
+
+/* Media query for screens with a maximum width of 768px */
+
+@media (max-width: 350px) {
+  h1 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    margin: 1rem;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  a {
+    font-size: 1rem;
+  }
 }
